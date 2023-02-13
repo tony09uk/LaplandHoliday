@@ -1,6 +1,6 @@
 const config = {
     "internalLinks": {
-        "baseUrl_live": "https://gentle-river-09bc03f03.2.azurestaticapps.net/things-to-do.html/",
+        "baseUrl_live": "https://gentle-river-09bc03f03.2.azurestaticapps.net/",
         "baseUrl_test": "file:///D:/Dev/Web/LaplandHoliday/",
         "home": "index.html",
         "diyChecklist": "lapland-checklist.html",
@@ -40,12 +40,6 @@ $(document).ready(function() {
     $(".link_coming-soon").prop("href", baseUrl+internalLinks.comingSoon);
     $(".link_credits").prop("href", baseUrl+internalLinks.credits);
     $(".link_sitemap").prop("href", baseUrl+internalLinks.sitemap);
-
-    $.get(baseUrl+content.footer, function(data){
-        $(this).children(".footer_content:first").html(data);
-    });
-
-    $( ".content_footer" ).append( baseUrl+content.footer );
 
     $(".emailAddress").prop("href", config.emailAddress);
 });
