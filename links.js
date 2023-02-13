@@ -1,5 +1,4 @@
 const config = {
-    "isLive": true,
     "internalLinks": {
         "baseUrl_live": "https://gentle-river-09bc03f03.2.azurestaticapps.net/things-to-do.html/",
         "baseUrl_test": "file:///D:/Dev/Web/LaplandHoliday/",
@@ -20,9 +19,15 @@ const config = {
     "emailAddress": "mailto:email@example.com"
 }
 
+let isLive = true;
+
+if(window.location.origin.includes("file")) {
+    isLive = false;
+}
+
 let internalLinks = config.internalLinks;
 let content = config.content;
-let baseUrl = config.isLive ? internalLinks.baseUrl_live : internalLinks.baseUrl_test;
+let baseUrl = isLive ? internalLinks.baseUrl_live : internalLinks.baseUrl_test;
 
 $(document).ready(function() {
     $(".link_diyChecklist").prop("href", baseUrl+internalLinks.diyChecklist);

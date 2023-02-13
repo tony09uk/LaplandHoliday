@@ -20760,21 +20760,6 @@ a .h_head:hover {
   border-radius: 0px;
   transform: translateX(-50%);
 }
-.tab_img_info_two figure.tab_img.photo_img {
-  background: url("../img/dark-product/photoshop.jpg");
-}
-.tab_img_info_two figure.tab_img.coding_img {
-  background: url("../img/dark-product/code.jpg");
-}
-.tab_img_info_two figure.tab_img.gaming_img {
-  background: url("../img/dark-product/game.jpg");
-}
-.tab_img_info_two figure.tab_img.video_img {
-  background: url("../img/dark-product/video.jpg");
-}
-.tab_img_info_two figure.tab_img.audio_img {
-  background: url("../img/dark-product/audio.jpg");
-}
 .tab_img_info_two figure.tab_img.active {
   position: absolute;
   display: block;
