@@ -1,7 +1,7 @@
 const config = {
     "isLive": false,
     "internalLinks": {
-        "baseUrl_live": "www.LaplandHoliday.net/",
+        "baseUrl_live": "https://gentle-river-09bc03f03.2.azurestaticapps.net/things-to-do.html/",
         "baseUrl_test": "file:///D:/Dev/Web/LaplandHoliday/",
         "home": "index.html",
         "diyChecklist": "lapland-checklist.html",
