@@ -1,6 +1,6 @@
 const config = {
     "internalLinks": {
-        "baseUrl_live": "https://gentle-river-09bc03f03.2.azurestaticapps.net/",
+        "baseUrl_live": "https://www.laplandholidays.net/",
         "baseUrl_test": "file:///D:/Dev/Web/LaplandHoliday/",
         "home": "index.html",
         "diyChecklist": "lapland-checklist.html",
